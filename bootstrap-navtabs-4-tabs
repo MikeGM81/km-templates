@@ -1,0 +1,63 @@
+<h2>Article Section</h2>
+
+<p>Enter any contextual text ahead of the tabs if you need to. You may delete this if it makes sense for your content.</p>
+
+<p><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script></p>
+
+<div role="navigation">
+<ul class="nav nav-tabs" role="tablist">
+	<li class="active" role="presentation"><a aria-controls="How to use" aria-expanded="true" data-target=".tab-1" data-toggle="tab" href="#How">How to use</a></li>
+	<li role="presentation"><a aria-controls="Delete the extra tab" aria-expanded="false" data-target=".tab-2" data-toggle="tab" href="#Delete">Delete the extra tab(s)</a></li>
+	<li role="presentation"><a aria-controls="Setting a default tab" aria-expanded="false" data-target=".tab-3" data-toggle="tab" href="#Setting default">Setting a default tab</a></li>
+	<li role="presentation"><a aria-controls="Need help?" aria-expanded="false" data-target=".tab-4" data-toggle="tab" href="#Need help?">Need help?</a></li>
+</ul>
+</div>
+
+<div class="tab-content">
+<div class="tab-pane fade tab-1 active in" id=".tab-1" role="tabpanel">
+<p>Ensure that you are using the <strong>Navtabs</strong> template from the <strong>Templates</strong> drop-down menu in the editor.</p>
+
+<p>Once entered, you can create&nbsp;and edit&nbsp;tab content by:</p>
+
+<ol>
+	<li>Clicking directly on the tab to edit its name.</li>
+	<li>Entering the body text for the tab below.</li>
+</ol>
+
+<p>Select <strong>Update Article</strong> or <strong>Save Draft </strong>to save changes.</p>
+</div>
+
+<div class="tab-pane fade tab-2" id=".tab-2" role="tabpanel">
+<p>Follow the instructions to delete an(y) extra tab(s):</p>
+
+<ol>
+	<li>Select <strong>Source&nbsp;</strong>from the article editor</li>
+	<li>Look for the &lt;div&gt; tags with the tab(s) you wish to remove. <em><strong>They are in two locations</strong></em>.
+	<ol>
+		<li>Delete the tab(s) from the &lt;div role=&quot;navigation&quot;&gt; section&nbsp;indicated by &lt;li&gt; tags and delete the &lt;li&gt; tags and content.</li>
+		<li>Scroll down to the associated tab &lt;div class=&quot;tab-pane fade tab-#&quot; id=&quot;.tab-#&quot; role=&quot;tabpanel&quot;&gt; tags and delete the associated tags and content for each tab.</li>
+		<li>Ensure that the <strong>aria-controls</strong> tag parameter matches the tab title.
+		<ol>
+			<li>For example, the Delete the extra tab(s) tab label has an aria-controls value of <em>Delete the extra tab</em>.</li>
+		</ol>
+		</li>
+		<li><em>Be careful not to delete the last &lt;/div&gt; tag as it is for the whole content container.</em></li>
+	</ol>
+	</li>
+	<li>Select&nbsp;<strong>Source</strong>&nbsp;to go back to the visual editor, and the tab(s) will be gone.</li>
+</ol>
+</div>
+
+<div class="tab-pane fade tab-3" id=".tab-3" role="tabpanel">
+<p>To determine which tab appears first when someone reads the article:</p>
+
+<ol>
+	<li>Select the tab to make it active,</li>
+	<li>Then, select <strong>Save</strong>.</li>
+</ol>
+</div>
+
+<div class="tab-pane fade tab-4" id=".tab-4" role="tabpanel">
+<p>For more information on tabs, reach out to your IT support group.</p>
+</div>
+</div>
