@@ -5,4 +5,5 @@ Knowledge Management Templates
 - The code uses HTML, CSS, Bootstrap, and some Bootstrap-related JavaScript allowed by the service.
 - The code snippets in this repository have been tested using the most updated version of TeamDynamix as of April 2026.
 - Variations are my own work through research and collaboration with my colleagues at the University of Oregon.
-**Note:**These are not full HTML code as the TeamDynamix environment presents as a WYSIWYG editor. This would be within a standard page's associated <body> tag.
+
+Note: These are not full HTML code as the TeamDynamix environment presents as a WYSIWYG editor. This would be within a standard page's associated <body> tag.
